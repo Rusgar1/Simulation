@@ -1,4 +1,4 @@
-package main.java;
+package main.java.entity;
 
 public abstract class Creature extends Entity {
 //    Абстрактный класс, наследуется от Entity.

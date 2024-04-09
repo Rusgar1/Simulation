@@ -1,4 +1,4 @@
-package main.java;
+package main.java.entity;
 
 public class Predator extends Creature{
     //Хищник, наследуется от Creature. В дополнение к полям класса Creature,

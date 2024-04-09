@@ -1,4 +1,4 @@
-package main.java;
+package main.java.entity;
 
 public class Herbivore extends Creature{
     //Травоядное, наследуется от Creature. Стремятся найти ресурс (траву),
