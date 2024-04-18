@@ -1,10 +1,11 @@
 package main.java.entity.Creature;
 
+import main.java.Coordinates;
 import main.java.entity.Creature.Creature;
 
 public class Herbivore extends Creature {
-    public Herbivore(int rows, int cols, int speed, int health) {
-        super(rows, cols, speed, health);
+    public Herbivore(Coordinates coordinates, int speed, int health) {
+        super(coordinates, speed, health);
     }
 
     @Override

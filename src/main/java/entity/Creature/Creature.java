@@ -1,13 +1,14 @@
 package main.java.entity.Creature;
 
+import main.java.Coordinates;
 import main.java.entity.Entity;
 
 public abstract class Creature extends Entity {
     private int speed; // сколько клеток может пройти за 1 ход
     private int health; // количество HP
 
-    public Creature(int rows, int cols, int speed, int health) {
-        super(rows, cols);
+    public Creature(Coordinates coordinates, int speed, int health) {
+        super(coordinates);
         this.speed = speed;
         this.health = health;
     }
