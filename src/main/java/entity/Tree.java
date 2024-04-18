@@ -1,7 +1,13 @@
 package main.java.entity;
 
-public class Tree extends Entity{
-    //    Rock, Tree - статичные объекты.
+import main.java.Coordinates;
 
-    public final static String[] TREE = {"\uD83C\uDF32", "\uD83C\uDF34", "\uD83C\uDF33"};
+//    Rock, Tree - статичные объекты.
+public class Tree extends Entity {
+    public String tree;
+
+    public Tree(Coordinates coordinates, String tree) {
+        super(coordinates);
+        this.tree = "\uD83C\uDF32";
+    }
 }

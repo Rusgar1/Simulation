@@ -1,6 +1,15 @@
-package main.java.entity;
+package main.java;
 
 public class Simulation {
+    public static void main(String[] args) {
+        int rows = 0;
+        int cols = 0;
+
+        WorldMap worldMap = new WorldMap();
+        worldMap.mapEntity(rows, cols);
+    }
+}
+
 //    Главный класс приложения, включает в себя:
 //
 //Карту
@@ -13,9 +22,9 @@ public class Simulation {
 //startSimulation() - запустить бесконечный цикл симуляции и рендеринга
 //pauseSimulation() - приостановить бесконечный цикл симуляции и рендеринга
 
-    public final static String[] CARNIVORE = {"\uD83D\uDC05", "\uD83D\uDC0A", "\uD83D\uDC3A"};
-    public final static String[] HERBIVORE = {"\uD83D\uDC18", "\uD83D\uDC10", "\uD83D\uDC07"};
-    public final static String[] GRASS = {"\uD83C\uDF3E", "\uD83C\uDF3F", "\uD83C\uDF40"};
-    public final static String[] ROCK = {"⛰", "\uD83E\uDEA8", "\uD83C\uDFD4️"};
-    public final static String[] TREE = {"\uD83C\uDF32", "\uD83C\uDF34", "\uD83C\uDF33"};
-}
+//    public final static String[] CARNIVORE = {"\uD83D\uDC05", "\uD83D\uDC0A", "\uD83D\uDC3A"};
+//    public final static String[] HERBIVORE = {"\uD83D\uDC18", "\uD83D\uDC10", "\uD83D\uDC07"};
+//    public final static String[] GRASS = {"\uD83C\uDF3E", "\uD83C\uDF3F", "\uD83C\uDF40"};
+//    public final static String[] ROCK = {"⛰", "\uD83E\uDEA8", "\uD83C\uDFD4️"};
+//    pblic final static String[] TREE = {"\uD83C\uDF32", "\uD83C\uDF34", "\uD83C\uDF33"};
+
