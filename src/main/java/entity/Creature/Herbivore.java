@@ -4,8 +4,8 @@ import main.java.Coordinates;
 import main.java.entity.Creature.Creature;
 
 public class Herbivore extends Creature {
-    public Herbivore(Coordinates coordinates, int speed, int health) {
-        super(coordinates, speed, health);
+    public Herbivore() {
+        this.icon ="\uD83D\uDC07";
     }
 
     @Override
@@ -13,6 +13,9 @@ public class Herbivore extends Creature {
     }
 }
 
+//    public Herbivore(Coordinates coordinates, int speed, int health) {
+//        super(coordinates, speed, health);
+//    }
 
 //Травоядное, наследуется от Creature. Стремятся найти ресурс (траву),
 // может потратить свой ход на движение в сторону травы, либо на её поглощение.

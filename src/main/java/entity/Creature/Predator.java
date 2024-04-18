@@ -6,8 +6,8 @@ import main.java.entity.Creature.Creature;
 public class Predator extends Creature {
     private int attackPower; // сила атаки.
 
-    public Predator(Coordinates coordinates, int speed, int health) {
-        super(coordinates, speed, health);
+    public Predator() {
+        this.icon ="\uD83D\uDC05";
     }
 
     @Override
@@ -15,6 +15,9 @@ public class Predator extends Creature {
     }
 }
 
+//    public Predator( int speed, int health) {
+//        super(coordinates, speed, health);
+//    }
 
 //Хищник, наследуется от Creature. В дополнение к полям класса Creature,
 // имеет силу атаки.

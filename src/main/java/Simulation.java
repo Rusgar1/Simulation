@@ -2,11 +2,11 @@ package main.java;
 
 public class Simulation {
     public static void main(String[] args) {
-        int rows = 0;
-        int cols = 0;
+        int rows = 5;
+        int cols = 5;
 
         WorldMap worldMap = new WorldMap();
-        worldMap.mapEntity(rows, cols);
+        worldMap.setupDefaultEntityPositions(rows, cols);
     }
 }
 
